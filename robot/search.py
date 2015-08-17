@@ -15,7 +15,7 @@ while True:
   i=0
   while (smell() and look() != 'fruit' and i<4):
     turn(1)
-    i++
+    i=i+1
   
   if smell()==0 and look() != 'fruit':
     steps = int(3*random())
