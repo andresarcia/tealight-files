@@ -14,12 +14,14 @@ def segment(scale, n):
      return
   else:
      tri(scale)
-     segment(scale, n - 1)
+     segment(scale/2, n - 1)
+     move(-scale/2)
+     tri(scale)
  
 
     
 
 turn(-90)
 move(150)
-segment(300,1)
+segment(300,2)
 #move(-300)
