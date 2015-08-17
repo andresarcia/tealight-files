@@ -6,10 +6,7 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-turn(-1)
-move()
-turn(1)
-move()
 distance = 10
 for n in range(0, distance):
   move()
+  
