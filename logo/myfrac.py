@@ -15,8 +15,8 @@ def segment(scale, n):
   else:
      tri(scale)
      segment(scale/2, n - 1)
-     move(-scale/4)
-     tri(scale)
+     move(-scale/2)
+     tri(scale/2)
  
 
     
