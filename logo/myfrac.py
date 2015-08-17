@@ -25,7 +25,7 @@ def segment(scale, n,pos):
        tri(scale/2)
        turn(120)
        move(-scale/2)
-       turn(60)
+       turn(-60)
        move(-scale/2)
      segment(scale/2, n - 1, 0)
      segment(scale/2, n - 1, 1)
