@@ -5,6 +5,7 @@ from tealight.robot import (move,
                             smell, 
                             left_side, 
                             right_side)
+from random import random
 
 # This is a fairly useless algorithm!
 dir = 1
