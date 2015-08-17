@@ -7,7 +7,7 @@ def square(side):
     turn(90)
     
 def tri(side):
-  for i in range(0,2):
+  for i in range(0,3):
     move(side)
     turn(60)
 
@@ -16,7 +16,7 @@ def waterwheel(edges, size):
   decoration = size / 2
   for i in range(0, edges):
     move(size)
-    tri(decoration)
+    square(decoration)
     turn(angle)
 
 turn(-90)
