@@ -18,7 +18,7 @@ def segment(scale, n,pos):
      elif (pos==1):
        move(-scale/2)
        tri(scale/2)
-     elif (pos==4):
+     elif (pos==2):
        turn(60)
        move(-scale/2)
        turn(60)
