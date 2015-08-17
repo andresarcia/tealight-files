@@ -1,4 +1,4 @@
 from tealight.net import connect, send
 
-connect(myapp)
+connect("myapp")
 send("hola a todas las apps")
