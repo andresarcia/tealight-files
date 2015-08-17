@@ -15,3 +15,7 @@ while touch() == 'fruit':
         turn(-1)
     elif right_side() == 'fruit':
         turn(1)
+  if right_side() == 'fruit':
+    turn(1)
+  elif left_side() == 'fruit':
+    turn(-1)
