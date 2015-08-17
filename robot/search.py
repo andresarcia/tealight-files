@@ -11,5 +11,5 @@ dir = 1
 while True:
   move()
   
-  while (smell() and !look())
+  while (smell() and !look()):
     turn(1)
