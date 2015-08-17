@@ -7,7 +7,7 @@ def square(side):
     turn(90)
     
 def tri(side):
-  for i in range(0,3):
+  for i in range(0,2):
     move(side)
     turn(60)
 
