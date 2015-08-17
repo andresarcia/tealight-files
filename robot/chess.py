@@ -8,3 +8,5 @@ from tealight.robot import (move,
 
 turn(-1)
 move()
+turn(1)
+move()
