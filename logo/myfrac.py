@@ -27,7 +27,7 @@ def segment(scale, n,pos):
        move(-scale/2)
        turn(-60)
        move(-scale/2)
-       turn(60)
+       turn(120)
            
      segment(scale/2, n - 1, 0)
      segment(scale/2, n - 1, 1)
