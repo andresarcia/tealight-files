@@ -13,4 +13,5 @@ def go():
     return
   go()
   
+print smell()
 go()
