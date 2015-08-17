@@ -7,11 +7,14 @@ from tealight.robot import (move,
                             right_side)
 
 distance = 10
+longest_d = 0
 #for n in range(0, distance):
 while touch() == 'fruit':
   move() 
   if touch() != 'fruit':
-    if left_side() == 'fruit':
+    if longest_d == 0
+       longest_d = moves
+    if left_side() == 'fruit' and longest_d and :
         turn(-1)
     elif right_side() == 'fruit':
         turn(1)
