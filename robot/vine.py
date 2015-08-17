@@ -10,6 +10,8 @@ from tealight.robot import (move,
 def go():
   move()
   if (touch()!='fruit'):
+    turn(-1)
+    go()
     return
   go()
   
