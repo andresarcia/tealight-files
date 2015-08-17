@@ -13,10 +13,10 @@ def segment(scale, n):
   if n <= 0:
      return
   else:
-     tri(scale)
      segment(scale/2, n - 1)
      move(-scale/2)
      tri(scale/2)
+      
  
 
     
