@@ -1,5 +1,5 @@
 from tealight.net import connect, send
-import datetime
+from datetime
 
 connect("myapp")
 
