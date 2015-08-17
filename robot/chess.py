@@ -10,4 +10,6 @@ turn(-1)
 move()
 turn(1)
 move()
-turn(2)
+distance = 10
+for n in range(0, distance):
+  move()
