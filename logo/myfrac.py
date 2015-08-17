@@ -32,12 +32,9 @@ def segment(scale, n,pos):
      segment(scale/2, n - 1, 0)
      segment(scale/2, n - 1, 1)
      segment(scale/2, n - 1, 2)
-      
- 
-
     
 
 turn(-90)
 move(150)
-segment(300,3,0)
+segment(300,4,0)
 #move(-300)
