@@ -1,3 +1,5 @@
+from tealight.logo import move, turn
+
 def segment(scale, detail):
   
   if detail == 0:
