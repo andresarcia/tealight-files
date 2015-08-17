@@ -16,5 +16,5 @@ while True:
   
 if smell()==0 and look() != 'fruit':
   turn(randon(1,3))
-  for i in range(1,5)
+  for i in range(1,5):
     move()
