@@ -1,3 +1,3 @@
-def handle_mousemove(x,y):
-    print 'moved to' + str(x) + ',' + str(y)
+def handle_keydown(x):
+    print 'Pressed ' + x
     
