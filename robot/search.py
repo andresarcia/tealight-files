@@ -7,11 +7,12 @@ from tealight.robot import (move,
                             right_side)
 
 # This is a fairly useless algorithm!
-
+dir = 1
 while True:
   move()
   
   if touch() == "wall":
-    turn(1)
+    turn(dir)
     move()
-    turn(1)
+    turn(dir)
+    dir=-dir
