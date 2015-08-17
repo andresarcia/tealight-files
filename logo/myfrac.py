@@ -15,7 +15,7 @@ def segment(scale, detail):
     turn(120)
     
 
-turn(90)
-move(-300)
-#segment(600,1)
+#turn(90)
+#move(-300)
+segment(600,1)
 #move(-300)
