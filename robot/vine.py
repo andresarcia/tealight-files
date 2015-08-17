@@ -12,3 +12,5 @@ def go():
   if (smell()!='fruit'):
     return
   go()
+  
+go()
