@@ -13,6 +13,9 @@ def segment(scale, n):
      move(-scale)
      turn(120)
      segment(scale/2.0, n - 2)
+     move(scale/2.0)
+     segment(scale/2.0, n - 2)
+
 #     segment(scale / 2.0, detail - 1)
 #     turn(-120)
 #     segment(scale / 2.0, detail - 1)
