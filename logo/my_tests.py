@@ -1,3 +1,4 @@
-def handle_keydown(x):
-    print 'Pressed ' + x
-    
+from tealight.net import connect, send
+
+connect(myapp)
+send("hola a todas las apps")
