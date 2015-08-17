@@ -13,5 +13,4 @@ def go():
     return
   go()
   
-print look()
 go()
