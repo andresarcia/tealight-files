@@ -11,5 +11,5 @@ dir = 1
 while True:
   move()
   
-  while (smell() and look() == -1):
+  while (smell() and look() != 'fruit'):
     turn(1)
