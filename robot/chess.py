@@ -7,6 +7,6 @@ from tealight.robot import (move,
                             right_side)
 
 distance = 10
-for n in range(0, distance):
-  move()
-  
+#for n in range(0, distance):
+while touch() == 'fruit':
+  move() 
