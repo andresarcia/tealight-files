@@ -14,7 +14,7 @@ while True:
   while (smell() and look() != 'fruit'):
     turn(1)
   
-if smell()==0 && look() != 'fruit':
+if smell()==0 & look() != 'fruit':
   turn(randon(1,3))
   for i in range(1,5)
     move()
