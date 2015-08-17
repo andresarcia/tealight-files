@@ -15,7 +15,7 @@ def segment(scale, n,pos):
   else:
      if (pos==0):
        tri(scale/2)
-     elif (pos==1):
+     elif (pos==3):
        move(-scale/2)
        tri(scale/2)
      elif (pos==2):
