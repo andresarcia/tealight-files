@@ -1,17 +1,18 @@
 from tealight.logo import move, turn
 
-def segment(scale, detail):
+def segment(scale, n):
   
   if detail <= 0:
      return
   else:
-     segment(scale, detail - 1)
+     segment(scale, n - 1)
      move(-scale)
      turn(120)
      move(-scale)
      turn(120)
      move(-scale)
      turn(120)
+     segment(scale/2.0, n-2)
 #     segment(scale / 2.0, detail - 1)
 #     turn(-120)
 #     segment(scale / 2.0, detail - 1)
@@ -25,7 +26,7 @@ def segment(scale, detail):
 
 turn(-90)
 move(150)
-segment(300,1)
+segment(300,2)
 #move(-300)
 
 
