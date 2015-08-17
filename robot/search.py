@@ -11,8 +11,5 @@ dir = 1
 while True:
   move()
   
-  if touch() == "wall":
-    turn(dir)
-    move()
-    turn(dir)
-    dir=-dir
+  while (smell() and !look())
+    turn(1)
