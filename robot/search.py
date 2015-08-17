@@ -12,8 +12,10 @@ dir = 1
 while True:
   move()
   
-  while (smell() and look() != 'fruit'):
+  i=0
+  while (smell() and look() != 'fruit' and i<4):
     turn(1)
+    i++
   
   if smell()==0 and look() != 'fruit':
     steps = int(3*random())
