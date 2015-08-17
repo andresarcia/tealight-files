@@ -9,7 +9,7 @@ from tealight.robot import (move,
 # Add your code here
 def go():
   move()
-  if (look()!='fruit'):
+  if (touch()!='fruit'):
     return
   go()
   
