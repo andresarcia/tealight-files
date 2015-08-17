@@ -14,7 +14,10 @@ def segment(scale, detail):
     segment(scale / 2.0, detail - 1)
     turn(-120)
     segment(scale / 2.0, detail - 1)
-
+    turn(120)
+    segment(scale / 2.0, detail - 1)
+    turn(120)
+    segment(scale / 2.0, detail - 1)
     
 
 turn(150)
