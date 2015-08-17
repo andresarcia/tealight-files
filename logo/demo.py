@@ -1,5 +1,5 @@
 from tealight.net import connect, send
-from datetime import age
+from tealight.utils import age
 
 connect("myapp")
 
