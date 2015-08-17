@@ -8,7 +8,7 @@ def tri(size):
      move(-size)
      turn(120)
 
-def segment(scale, n):
+def segment(scale, n,pos):
   
   if n <= 0:
      return
