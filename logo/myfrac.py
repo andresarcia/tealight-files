@@ -34,5 +34,5 @@ def segment(scale, n,pos):
 
 turn(-90)
 move(150)
-segment(300,2,0)
+segment(300,3,0)
 #move(-300)
