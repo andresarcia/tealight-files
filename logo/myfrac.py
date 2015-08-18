@@ -1,11 +1,11 @@
 from tealight.logo import move, turn
 
 def tri(size):
-     move(-size)
+     move(size)
      turn(120)
-     move(-size)
+     move(size)
      turn(120)
-     move(-size)
+     move(size)
      turn(120)
 
 def segment(scale, n,pos):
@@ -34,8 +34,9 @@ def segment(scale, n,pos):
      segment(scale/2, n - 1, 2)
     
 
-#turn(-90)
+turn(-90)
 move(150)
+turn(180)
 
-#segment(300,3,0)
+segment(300,1,0)
 #move(-300)
