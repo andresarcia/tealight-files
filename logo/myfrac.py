@@ -37,5 +37,5 @@ turn(-90)
 move(150)
 turn(180)
 
-segment(150,3,0)
+segment(150,2,0)
 #move(-300)
