@@ -16,18 +16,13 @@ def segment(scale, n,pos):
      if (pos==0):
        tri(scale/2)
      elif (pos==1):
-       move(-scale/2)
+       move(scale/2)
        tri(scale/2)
      elif (pos==2):
-       turn(60)
-       move(-scale/2)
-       turn(60)
-       tri(scale/2)
        turn(120)
-       move(-scale/2)
-       turn(-60)
-       move(-scale/2)
-       turn(180)
+       move(scale/2)
+       turn(-120)
+       tri(scale/2)
            
      segment(scale/2, n - 1, 0)
      segment(scale/2, n - 1, 1)
@@ -38,5 +33,5 @@ turn(-90)
 move(150)
 turn(180)
 
-segment(300,1,0)
+segment(300,2,0)
 #move(-300)
