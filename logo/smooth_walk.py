@@ -14,6 +14,7 @@ d = int(random()*360)
 def handle_frame():
   global d
   
+  show_turtle()
   for x in range(10):
     d+=1
     
