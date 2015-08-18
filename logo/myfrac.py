@@ -10,7 +10,7 @@ def tri(size):
 
 def segment(scale, n,pos):
   
-  if n <= 0:
+  if n == 0:
      return
   else:
      if (pos==0):
@@ -36,5 +36,5 @@ def segment(scale, n,pos):
 
 turn(-90)
 move(150)
-segment(300,3,0)
+#segment(300,3,0)
 #move(-300)
