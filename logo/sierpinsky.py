@@ -1,5 +1,5 @@
 from tealight.logo import move, turn
-from time import sleep
+from time import *
 
 def sierpinsky (scale, detail):
   if (detail>0) :
