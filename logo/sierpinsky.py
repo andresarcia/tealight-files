@@ -1,7 +1,7 @@
 from tealight.logo import move, turn
 
 
-def sierpisky (scale, detail):
+def sierpinsky (scale, detail):
   if (detail>0) :
     move(scale)
     turn(120)
