@@ -1,4 +1,4 @@
-from tealight
+from tealight.logo import move, turn
 
 
 def sierpisky (scale, detail):
