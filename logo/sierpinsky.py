@@ -6,7 +6,7 @@ def sierpinsky (scale, detail):
     move(scale)
     turn(120)
     sierpinsky(scale/2, detail-1)
-    wait(0.5)
+    
   if (detail>0) :
     move(scale)
     turn(120)
