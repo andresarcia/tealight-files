@@ -20,4 +20,4 @@ def sierpinsky (scale, detail):
 
     
 turn(90)
-sierpinsky(200,5)
+sierpinsky(200,6)
