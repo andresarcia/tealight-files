@@ -4,7 +4,7 @@ from tealight.logo import (move,
 
 print "This is tealight!"
 
-colors = ["yellow", "black", "white"]
+colors = ["yellow", "black", "blue"]
 
 for i in range(1,100,1):
   move(i)
