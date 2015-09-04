@@ -14,7 +14,7 @@ while touch() == 'fruit':
   if touch() != 'fruit':
     if longest_d == 0 :
        longest_d = moves
-    if left_side() == 'fruit' and longest_d and :
+    if left_side() == 'fruit' and longest_d :
         turn(-1)
     elif right_side() == 'fruit':
         turn(1)
