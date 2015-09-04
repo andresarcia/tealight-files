@@ -12,7 +12,7 @@ longest_d = 0
 while touch() == 'fruit':
   move() 
   if touch() != 'fruit':
-    if longest_d == 0
+    if longest_d == 0 :
        longest_d = moves
     if left_side() == 'fruit' and longest_d and :
         turn(-1)
