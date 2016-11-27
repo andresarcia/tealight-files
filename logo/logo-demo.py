@@ -9,5 +9,5 @@ colors = ["yellow", "black", "blue"]
 for i in range(1,100,1):
   move(i)
   turn(35)
-  c = colors[(i / 5)%3]
+  c = colors[i%3]
   color(c)
